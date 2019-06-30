@@ -20,7 +20,6 @@ Upload **pointsinregion.php** to **application/views/pointsinregion.php**
 
 Add,
 
-// api
 $route['pointsinregion'] = 'pointsinregion/index';
 
 **application/config/autoload.php**
