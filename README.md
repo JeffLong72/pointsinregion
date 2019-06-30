@@ -16,18 +16,22 @@ Upload **pointsinregion.php** to **application/views/pointsinregion.php**
 
 ## Update files
 
-1) application/config/routes.php
+**application/config/routes.php**
 
 Add,
 
 // api
 $route['pointsinregion'] = 'pointsinregion/index';
 
-2) application/config/autoload.php
+**application/config/autoload.php**
 
 $autoload['libraries'] = array('database');
 
-3) application/config/database.php
+**application/config/database.php**
 
 Add your database details
+
+## View API url
+
+http://localhost/index.php/pointsinregion
 
