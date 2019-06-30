@@ -18,8 +18,6 @@ Upload **pointsinregion.php** to **application/views/pointsinregion.php**
 
 **application/config/routes.php**
 
-Add,
-
 $route['pointsinregion'] = 'pointsinregion/index';
 
 **application/config/autoload.php**
@@ -28,7 +26,7 @@ $autoload['libraries'] = array('database');
 
 **application/config/database.php**
 
-Add your database details
+Just add your database details
 
 ## View API url
 
