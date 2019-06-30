@@ -15,10 +15,10 @@ class Pointsinregion_model extends CI_Model {
 		$sw['lng'] = (!empty($sw[1])) ? floatval($sw[1]) : 0;	
 		
 		$query = $this->db->query('SELECT * 
-									FROM `data`
-									WHERE features_properties_latitute BETWEEN '.$sw['lat'].' AND '.$ne['lat'].' 
-									AND features_properties_longitude BETWEEN '.$sw['lng'].' AND '.$ne['lng'].'
-									');
+					   FROM `data`
+					   WHERE features_properties_latitute BETWEEN '.$sw['lat'].' AND '.$ne['lat'].' 
+					   AND features_properties_longitude BETWEEN '.$sw['lng'].' AND '.$ne['lng'].'
+					   ');
 		$result = $query->result_array();
 		
 		$data = array();
