@@ -1,6 +1,8 @@
-# pointsinregion
+# Points in region
 
 Install Codeignitor 3  - https://www.codeigniter.com/download
+
+Import **import_data.sql** into your database to create the data table.
 
 Upload **Pointsinregion.php** to **application/controllers/Pointsinregion.php**
 
